@@ -1,1 +1,5 @@
-<h1>Heyyy</h1>
+<script>
+  import Header from "./UI/Header.svelte";
+</script>
+
+<Header />

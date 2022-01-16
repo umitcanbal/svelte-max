@@ -1,11 +1,7 @@
-// import App from './App.svelte';
-// import Header from "./UI/Header.svelte"
+import App from './App.svelte';
 
-// new App({
-// 	target: document.querySelector("#app")
-// });
+const app = new App({
+	target: document.body
+});
 
-// new Header({
-// 	target: document.querySelector("#header")
-// })
-
+export default app;
